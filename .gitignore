@@ -5,6 +5,8 @@ __pycache__/
 *.ipynb
 *.pdf
 *.pptx
+*.jpg
+*.gif
 
 old_ones/
 papers/
