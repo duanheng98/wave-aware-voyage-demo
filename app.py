@@ -1,4 +1,4 @@
-# app_real_fuel_co2.py
+# app.py
 
 import base64
 import os
@@ -2193,7 +2193,7 @@ def add_timeline_result_view(result: Dict, ds: xr.Dataset, lats: np.ndarray, lon
     st.caption(
         "This timeline is rendered inside the browser, so the vessel markers, wave layer, "
         "and four plots update while you drag the slider. Wave maps use the raw NetCDF time steps; "
-        "vessel positions are interpolated along each computed route. If `data/slp_hourly.nc` is available, "
+        "vessel positions are interpolated along each computed route. If `data/slp_sample.nc` is available, "
         "mean sea-level pressure contours are overlaid on the wave map."
     )
 
