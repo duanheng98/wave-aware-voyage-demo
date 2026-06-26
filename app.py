@@ -9,7 +9,7 @@ from io import BytesIO
 from typing import Dict, List, Optional, Tuple
 
 import folium
-import matplotlib.cm as cm
+import matplotlib
 import matplotlib.colors as mcolors
 import matplotlib.pyplot as plt
 import networkx as nx
@@ -2586,7 +2586,7 @@ def field_to_rgba_image(
         vmax = vmin + 1e-6
 
     norm = mcolors.Normalize(vmin=vmin, vmax=vmax, clip=True)
-    cmap = cm.get_cmap(cmap_name)
+    cmap = matplotlib.colormaps[cmap_name]
 
     safe_arr = np.where(valid, arr, vmin)
     rgba = cmap(norm(safe_arr))
