@@ -1,0 +1,21 @@
+__pycache__/
+.env
+.DS_Store
+
+*.ipynb
+*.pdf
+*.pptx
+
+old_ones/
+papers/
+
+# Ignore raw large data
+data/raw_wave.nc
+data/raw_slp.nc
+
+# Ignore all NetCDF files
+*.nc
+
+# But keep deployment samples
+!data/wave_sample.nc
+!data/slp_sample.nc
