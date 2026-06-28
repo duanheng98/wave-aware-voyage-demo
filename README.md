@@ -1,5 +1,8 @@
 # Wave-Aware Voyage Optimisation Demo
 
+![Route preview](assets/optimize_demo.gif)
+![Timeseries](assets/optimize_time_series.png)
+
 A Streamlit demo showing how wave conditions can influence voyage route choice, estimated fuel use, CO₂ emissions, ETA, and safety exposure.
 
 The app compares different routing objectives:

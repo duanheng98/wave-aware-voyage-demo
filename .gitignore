@@ -21,3 +21,6 @@ data/raw_slp.nc
 # But keep deployment samples
 !data/wave_sample.nc
 !data/slp_sample.nc
+
+!assets/optimize_demo.gif
+!assets/optimize_time_series.png
